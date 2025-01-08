@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import './index.css';
 import Arrow from './icons/Arrow';
 import { bear, coin, highVoltage, notcoin, rocket, trophy } from './images';
-import { TonConnectButton, TonConnectUI } from '@tonconnect/ui-react';
+import { TonConnectButton } from '@tonconnect/ui-react';
 
 const App = () => {
   const [points, setPoints] = useState(29857775);
