@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import './index.css';
 import Arrow from './icons/Arrow';
 import { bear, coin, highVoltage, notcoin, rocket, trophy } from './images';
+import { TonConnectButton, TonConnectUI } from '@tonconnect/ui-react';
 
 const App = () => {
   const [points, setPoints] = useState(29857775);
@@ -59,6 +60,8 @@ const App = () => {
           <div className="text-base mt-2 flex items-center">
             <img src={trophy} width={24} height={24} />
             <span className="ml-1">Gold <Arrow size={18} className="ml-0 mb-1 inline-block" /></span>
+            <TonConnectButton/>
+
           </div>
         </div>
 
